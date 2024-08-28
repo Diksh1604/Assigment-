@@ -1,0 +1,1126 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7fab1587-0db3-4d24-8b6f-1b9c9f191c5b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Assigment1 :- Python"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "80fcd507-a3f7-4656-96d8-6e438c76a7c8",
+   "metadata": {},
+   "source": [
+    "Ans 1:- Key Features of python that make a popular choice for programming is\n",
+    "a) Readability and simplicity \n",
+    "b) High Level Language \n",
+    "c) Versatile and multi paradigm\n",
+    "d) Extensive standard library\n",
+    "e) Dyanamic Typing \n",
+    "f) Strong community and Ecosystem \n"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "7e104080-1910-4685-8309-3199529e9c0c",
+   "metadata": {},
+   "source": [
+    "Ans 2:- Role of predefined keywords in python:- "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "4aa11766-03ca-4aec-bc93-2dca188f3f9d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "x is greather than 6\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Control FLow >> keywords >> if , else , elif , for , while , \n",
+    "x = 8\n",
+    "if x > 6:\n",
+    "    print(\"x is greather than 6\") "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "9d65f299-5ba8-4dff-a517-18c746c55c9a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 8,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Logical Operators >> and , or , not , is and in \n",
+    "True or False  "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "2b5b7875-aa76-4877-9a65-976305cef858",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "False and False  "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "23335595-6314-4448-8efe-8204c9f09533",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "4\n",
+      "6\n",
+      "8\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Looping \n",
+    "n = 8\n",
+    "i = 4\n",
+    "while i <= n:\n",
+    "    print(i)\n",
+    "    i = i+2 "
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "26bf3957-a42a-4a7b-8a64-9cf662a09ec6",
+   "metadata": {},
+   "source": [
+    "Ans 3: Mutability and Immutability :- "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "2f3f1166-986a-4ee0-aea0-2d9f5bd6c3a0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Original lists: [1, 2, 3]\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Mutable Objects >> Lists , dictionaries , sets \n",
+    "my_list = [1,2,3]\n",
+    "print(\"Original lists:\" , my_list) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "1b627f1a-63e7-49e9-bb18-1c3b5aefa732",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "original String: Hello\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Immutable >> intergers , floats , strings \n",
+    "my_string = \"Hello\"\n",
+    "print(\"original String:\" , my_string) "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e47d169d-ac09-47c9-a864-73947eff19b5",
+   "metadata": {},
+   "source": [
+    "Ans 4: Operators in Python :-"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "9e8e8c6e-d6de-4859-9888-66863d8bcd43",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "97"
+      ]
+     },
+     "execution_count": 21,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Arithmatic Operator \n",
+    "100-3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "38a79d86-9fd7-47be-997d-a44d69234039",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5.25"
+      ]
+     },
+     "execution_count": 22,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "21/4"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "46db4c4a-ff10-46e0-b59b-04699540291f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 27,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Comparision Operator \n",
+    "# Comparison Operator >> Compare two values >> return a boolean value \n",
+    "a = 2\n",
+    "10 < 2 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "5f3996ce-45e7-410e-8ea5-dd2f1c4c4707",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 28,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "10 <= 10"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "8ebffbd1-e86d-4095-b456-f93ae8501f36",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 29,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Logical Operators \n",
+    "# and \n",
+    "# or \n",
+    "True and True "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "faa8bb04-66ac-4238-9329-a0f187b07ea3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 30,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "False or False "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "6488949a-8da1-4b6c-baf6-e9112068ceb7",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "15"
+      ]
+     },
+     "execution_count": 34,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Assigment Operators \n",
+    "a = 10 \n",
+    "a + 5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "1d171889-cc62-4325-9c93-92e553223da1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "100"
+      ]
+     },
+     "execution_count": 33,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a = 60\n",
+    "a+40 \n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "8cf0ef05-c02f-4ba6-b84f-88ae5e5abb1d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 36,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Membership Operators \n",
+    "a = \"pwskills\"\n",
+    "'p' in a "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "2dbd4d6f-bdcc-485c-9b6b-fea68d103e9c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 38,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "'o' in a "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "665ebeca-af7c-4175-bd8b-18ce6cb1bc5d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 39,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Identity Operators \n",
+    "# Identity Operators >> compare the location of two object / variable \n",
+    "a = 2\n",
+    "b = 3 \n",
+    "a is b "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "id": "60016396-cd46-482e-81b9-8e7e10ff719c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 40,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a is not b "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "d875d5af-c7b6-46bb-a2df-9fd4196d3759",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'0b1000'"
+      ]
+     },
+     "execution_count": 42,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Bitwise Operator \n",
+    "# Bitwise 0perator >> Operations at bit levels manpluting individuals bits within integers \n",
+    "18 & 3 == 2 \n",
+    "bin(8) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "5426b80c-19a9-487b-a02d-b57b41cb5f86",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'0b100'"
+      ]
+     },
+     "execution_count": 43,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "bin(4)"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "d5217330-dfd1-4984-8918-f6fda784b2b7",
+   "metadata": {},
+   "source": [
+    "Ans 5: Concept of type Casting:- "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9542952c-9374-430b-9d79-71d9d92ae033",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Type casting / conversation >> process of changing the data type of vale / object.\n",
+    "# Why? While excuting >> there can be mismatch between data "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "e7c3d4a4-9d10-4771-97bb-a4099fcd16df",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#String to integer\n",
+    "a = \"2\" \n",
+    "b = 3 \n",
+    "int(a) + b "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "54bbeead-f793-4a29-8abe-09eed1b48dc5",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "float"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a = 3.4 \n",
+    "type(a) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "58cd1b8d-5954-4be3-9776-45412ab30a21",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "int"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Integer to float \n",
+    "a = 2\n",
+    "type(a) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "0d51370c-30bd-4a5b-990f-00b74080983b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2.0"
+      ]
+     },
+     "execution_count": 8,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "b = float(a) \n",
+    "b "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "406237b0-e166-4c73-9435-d55a35ff660a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# String to float \n",
+    "a = \"2\"\n",
+    "type(a) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "54a374dc-6ffb-4dac-a148-1409e292238b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2.0"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "float(a) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "2e2bb363-f526-4b09-acc2-4b9ad40102ce",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "int"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Integer to String \n",
+    "a = 5 \n",
+    "type(a) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "cde28d91-6203-4315-8c28-13aa5618d352",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "int"
+      ]
+     },
+     "execution_count": 12,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Type Casting >> implicit and explicit \n",
+    "# Implicit type casting >> python and the data type \n",
+    "a = 5\n",
+    "type(a) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "f5335265-279d-46d8-9987-922c754f60b4",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Explicit type casting \n",
+    "a =\"2\" \n",
+    "type(a) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "aa8c2716-285a-456a-acf7-462068c744a2",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2.0"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "float(a) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "93248744-638c-4317-afc5-1343c22a5721",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'DikshaMalavadakar'"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a = \"Diksha\"\n",
+    "b = \"Malavadakar\"\n",
+    "a + b\n",
+    "# Concatenation of string >> meaning combine the string "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "f8f72caa-e9b3-43b5-a119-27f2bddaf979",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "bool(\"Diksha\") "
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "3e256ec9-d5fb-41c8-8cc4-eae0fcdd7d2b",
+   "metadata": {},
+   "source": [
+    "Ans6 : Conditions statement works in python "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "8029691f-2d1e-408d-afeb-825dc840bcf9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "x is greather than 5\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Conditional Statements >> if\n",
+    "x = 20\n",
+    "if x > 10:\n",
+    "    print(\"x is greather than 5\") "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "e7d8948b-ee6d-4e7d-91c6-01933f135746",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "x is greather than 10\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Conditional statement >> elif \n",
+    "x = 20\n",
+    "if x > 10:\n",
+    "    print(\"x is greather than 10\") \n",
+    "elif x > 5: \n",
+    "    print(\"x is greather than 5 but less than and equal to 10\") "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "78fb6e0a-b6a9-4697-a250-7044c0331dd8",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Conditional statement >> else \n",
+    "x = 8\n",
+    "if x > 3:\n",
+    "    print(\"x is greather than 3\") \n",
+    "elif x > 1:\n",
+    "    print(\"x is greather than 1 but less and equal to 3\") \n",
+    "else:\n",
+    "    print(\"x is 1 or less\") "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "a1d5c705-7313-4663-ac6e-c32d5450c03b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "x is not less than 3\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Combining conditions with logical operators \n",
+    "x = 9\n",
+    "y = 4\n",
+    "if x > 3 and y < 3: \n",
+    "    print(\"x is greather than 3 and y is less than 3\") \n",
+    "if not (x < 5): \n",
+    "    print(\"x is not less than 3\") "
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "928bad97-70f7-46e6-abb4-f32afe3b59a0",
+   "metadata": {},
+   "source": [
+    "Ans7: Different types of loops in python "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "376b35c2-8900-4c27-ae1c-aa2a857b49ea",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# loop statements >> it allows you to excute a block of code repeatedly \n",
+    "# Loop >> WHile loop and for loop \n",
+    "# While >> Repeatedly excuted a block of code \n",
+    "# synatx\n",
+    "# While >> condition \n",
+    "# block of code \n",
+    "# >> while is keyword used for while loop "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "cf9db89e-6959-4a2d-8501-1ed831b29fec",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Apple\n",
+      "Banana\n"
+     ]
+    }
+   ],
+   "source": [
+    "# >> while is a keyword used for while loop\n",
+    "# for loop\n",
+    "fruits = [\"Apple\" , \"Banana\"]\n",
+    "for fruits in fruits:\n",
+    "    print(fruits) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "5b803e8a-39be-4469-9e65-ceb8f8364a97",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0\n",
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n",
+      "6\n",
+      "7\n",
+      "8\n",
+      "9\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Iterating range of numbers\n",
+    "for i in range(10):\n",
+    "    print(i) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "d2dce2c8-1803-4c57-86b1-1283048a7f8d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "name : Diksha\n",
+      "age : 18\n",
+      "course : Data Science\n"
+     ]
+    }
+   ],
+   "source": [
+    "# iterating over Dictionary \n",
+    "student = {\"name\" : \"Diksha\", \"age\" : 18, \"course\" : \"Data Science\"}\n",
+    "for key, value in student.items():\n",
+    "    print(f\"{key} : {value}\") "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "e8cc5bfb-d789-4831-9a60-bd8c987063c5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "3\n",
+      "5\n",
+      "7\n",
+      "9\n",
+      "11\n",
+      "13\n",
+      "15\n",
+      "17\n",
+      "19\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Continue \n",
+    "for i in range(20):\n",
+    "    if i % 2 == 0:\n",
+    "        continue\n",
+    "    print(i) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "56a47088-4211-4d70-8b42-dad0a845d5db",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0\n",
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Break\n",
+    "for i in range(20):\n",
+    "    if i == 5:\n",
+    "        break \n",
+    "    print(i) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4e6e25ff-98a9-4bd2-affd-eac94fffeb5d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7c467e71-c90c-4368-afcb-bba318aba091",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2b96ccdd-8b43-4b75-92e4-23fa9248411d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6eee344e-d9f8-414c-b46c-e5490599aa43",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0e2d1570-f872-4008-9974-3a0be155ff44",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "771857f8-7f6f-4bcd-bddb-dfb4553688d9",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "35cd2b42-8600-4e51-8ee3-362a99ba72b0",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2116635d-cea4-4c7e-9c4e-dad5ee39ee44",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2ba50e0f-b0f7-48f5-8ebe-6d254ffa6894",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
